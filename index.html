@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana-Speak</title>
+    <style>
+        textarea{
+            width: 80%;
+            height: 25vh;
+            padding: 1rem;
+            margin: 1rem;
+            display: block;
+        }
+
+        #output{
+            border: 1px solid black;
+            width:80%;
+            display: block;
+            height: 25vh;
+            padding: 1rem;
+            margin: 1rem;
+
+        }
+
+    </style>
 </head>
 <body>
 
     <h1>Banana-Speak</h1>
 
+    <textarea id="txt-input" placeholder="put your text in english and we will convert it into banana "></textarea>
+
     <button id="btn-Translate">Translate</button>
+
+    <div style="font-size: larger;">Output will come here 👎</div>
+
+    <div id="output"> </div>
 
 
 
